@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pedidos</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">SUAPIZZA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#suapizza">SUAPIZZA</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#localização">LOCALIZAÇÃO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pizza_p.html">CARDÁPIO</a>
+          </li>
+
+          <li>
+            <a class="nav-link" href="#PEDIDO">FAÇA SEU PEDIDO</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="row mt-5">
+    <div class="col-12">
+      <div class="alert alert-success" role="alert">
+        seu pedido foi realizado com secesso!
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row mt-2">
+      <div class="container-fluid">
+        <div class="row form-cadastro justify-content-center">
+          <div class="col-3 alingn-self-center area form">
+            <form action="">
+              <div class="input-group mt-2">
+                <input type="text" class="form-control bg-light btn-outline-secodary" placeholder="Nome completo">
+              </div>
+
+              <div class="input-group mt-2">
+                <input type="text" class="form-control bg-light btn-outline-secodary" required placeholder="CPF">
+              </div>
+              <div class="input-group mt-2">
+                <input type="text" class="form-control bg-light btn-outline-secodary"
+                  placeholder="informe o (os)o pedido(s)">
+              </div>
+
+              <div class="mt-2">
+                <!-- Example single danger button -->
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    formas de pagamento
+                  </button>
+                  <ul class="dropdown-menu">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        pix
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                        checked>
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        cartão
+                      </label>
+                    </div>
+                  </ul>
+                </div>
+              </div>
+              <div class="input-group mt-2">
+                <input type="text" class="form-control bg-light btn-outline-secodary"
+                  placeholder="digite o numero do cartão/pix">
+              </div>
+              <div class="input-group mt-2">
+                <input type="text" class="form-control bg-light btn-outline-secodary" placeholder="Informe o indereço">
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <button type="button" class="btn btn-secondary
+          btn-block mt-2">CANCELAR pedido</button>
+                </div>
+                <div class="col-md-6">
+                  <a href="index.html"><button type="button" class="btn btn-info
+          btn-block mt-2">fazer pedido</button></a>
+                </div>
+              </div>
+          </div>
+          </form>
+        </div>
+       
+
+
+      </div>
+    </div>
+   
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
